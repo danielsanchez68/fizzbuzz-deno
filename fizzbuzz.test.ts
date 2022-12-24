@@ -1,6 +1,6 @@
 import { assertEquals } from "https://deno.land/std@0.168.0/testing/asserts.ts";
 
-import fizzbuzz from './fizzbuzz.js'
+import fizzbuzz from './fizzbuzz.ts'
 
 Deno.test('deberia dar 0 con una entrada 0', () => {
     const esperado = 0
